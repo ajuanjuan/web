@@ -1,0 +1,110 @@
+body{margin: 0;
+	padding: 0;
+}
+#head{height: 70px;
+	width: %100;
+	background: #242424;
+}
+.one{margin-left: 110px;
+	float: left;
+}
+#head .two table{
+	margin-left: 30px;
+	margin-top:0;
+    font-size: 16px;
+	padding: 0;
+	padding-top: 0;
+	float: left;
+}
+#head .two table tr td{
+	width: 80px;
+	height: 65px;
+}
+#head .two table tr .tishi{
+	color: #9B9B9B;
+}
+#head .two table tr td a:link,#head .two table tr td a:visited{
+	text-decoration: none;
+}
+#head .two table tr td:hover{
+	background-color: #000000;
+}
+#neck{height: 10px;
+	width: %100;
+	padding-top: 0;
+    background: #C20C0C;
+    margin-top: 0;
+}
+#neck .lie table{
+	margin-left: 310px;
+	margin-top:0;
+    font-size:10px;
+	padding: 0;
+	padding-top: 0;
+	float: left;
+}
+
+#neck .lie table tr td a:link,a:visited{
+	color: white;
+	text-decoration: none;	
+}
+#neck .lie table tr td:hover{
+	background-color: #9B0909;
+}
+#neck .lie table tr td{
+	width: 100px;
+	height: 28px;
+}
+#banner{
+	width: %100;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+#banner .banner-pic .pic{
+	display: none;
+}
+#banner .banner-pic .current{
+	display: block;
+}
+#banner ol{
+	position: absolute;
+	left: 465px;
+	bottom: 10px;
+}
+#banner ol .but{
+	float: left;
+	width: 26px;
+	height: 26px;
+	border: 1px solid #FF7101;
+	margin-right: 12px;
+	text-align: center;
+	line-height: #fff;
+	color: #FF7101;
+	font-size: 14px;
+	font-weight: bold; 
+
+}
+#banner ol li{
+	cursor: pointer;
+}
+#banner ol .current{
+	background: #FF7101;
+	color: #fff;
+    float: left;
+    width: 26px;
+    height: 22px;
+    border: 1px solid #FF7101;
+    margin-right: 12px;
+    text-align:center;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: bold;  
+}
+.xiangdui{
+	position: fixed;
+	right: 25px;
+	top: 400px;
+}
